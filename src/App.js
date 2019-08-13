@@ -8,7 +8,6 @@ function App() {
 
   const fetchSentences = () => {
     setIsLoading(true);
-
     fetch(`http://openlibrary.org/search.json?author=${author}`)
       .then(data => {
         return data.json();
@@ -29,9 +28,23 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h3>Get👏Yo👏Sentences👏</h3>
+        <h3>
+          Get
+          <span role="img" aria-label="clap">
+            👏
+          </span>
+          Yo
+          <span role="img" aria-label="clap">
+            👏
+          </span>
+          Sentences
+          <span role="img" aria-label="clap">
+            👏
+          </span>
+        </h3>
+
         <div className="App-form">
-          <label>Author:</label>
+          <label>Your favourite book author:</label>
           <input
             onChange={e => {
               setAuthor(e.target.value);
