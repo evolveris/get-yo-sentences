@@ -1,16 +1,17 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## About
 
-## Available Scripts
+_How do good books start? What are the first words that open up an entirely new universe? You're about to find out! 🔥_
 
-In the project directory, you can run:
+Using [OpenLibrary's API](https://openlibrary.org/developers/api) to retrive all first sentences of an author's books. The result is a little search app that will display a list of all first sentences.
+
+I've used [Create React App](https://github.com/facebook/create-react-app) as a starting point.
+
+## Scripts
 
 ### `npm start`
 
 Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
 
 ### `npm test`
 
